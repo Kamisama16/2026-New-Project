@@ -1,0 +1,60 @@
+Project Proposal: AI-Assisted Equity Valuation Platform
+Project Title
+EquityLens: An Agentic AI Valuation Assistant for Public Companies
+Alternative names:
+ValuScope
+DCF Agent
+IntrinsicAI
+Equity Research Copilot
+Project Summary
+This project aims to build an AI-assisted stock valuation platform that helps users research public companies and understand how their current stock prices compare against different valuation methods.
+The tool will not act as a financial advisor or tell users what to buy or sell. Instead, it will function as an educational and analytical assistant that gathers financial data, runs structured valuation models, explains assumptions, cites sources, and presents a transparent valuation range.
+The system will focus on methods such as DCF analysis, comparable company analysis, reverse DCF, and sensitivity analysis. The goal is to help users better understand what assumptions are required for a company’s current market price to make sense.
+Problem Statement
+Company valuation is a useful but time-consuming process. Even basic valuation requires gathering financial statements, checking historical growth, estimating free cash flow, choosing discount rates, selecting comparable companies, calculating multiples, and explaining assumptions.
+For beginners and students, this process can feel overwhelming because the difficult part is not only the formula. The difficult part is knowing:
+- where the financial data comes from
+- which numbers matter
+- what assumptions are reasonable
+- how sensitive the valuation is to small changes
+- how different valuation methods compare
+- what the current stock price implies about market expectations
+Existing professional tools such as Bloomberg Terminal, FactSet, or AlphaSense are powerful but expensive and targeted toward professionals. Many consumer stock tools either provide surface-level summaries or black-box ratings without clearly explaining the underlying assumptions.
+This project attempts to bridge that gap by creating a transparent, source-grounded valuation assistant.
+Project Goal
+The main goal is to build a full-stack AI tool that allows a user to enter a stock ticker and receive a structured valuation report.
+The report should include:
+- company overview
+- key financial metrics
+- historical financial trend summary
+- DCF valuation
+- comparable company valuation
+- reverse DCF analysis
+- bear/base/bull scenarios
+- sensitivity analysis
+- cited sources
+- assumption explanations
+- risk and uncertainty discussion
+The project is also intended as a learning opportunity in fintech, agentic AI, financial data engineering, valuation modeling, and full-stack AI application development.
+Target Users
+The primary target users are:
+- finance students
+- computer science students learning finance
+- beginner investors
+- fintech learners
+- people who want to understand valuation logic
+- users who want an educational explanation of stock valuation methods
+The tool is not designed for professional investment decision-making in its first version.
+Intended Positioning
+This project should be positioned as:
+“An AI-assisted valuation research and education platform.”
+It should not be positioned as:
+“An AI stock prediction tool.”
+The tool should avoid directly saying:
+“Buy this stock.”
+
+Instead, it should say things like:
+“Under the base-case assumptions used in this model, the estimated valuation range is above/below the current market price.”
+
+or:
+“The current market price appears to imply higher/lower growth expectations than the company’s historical performance.”
